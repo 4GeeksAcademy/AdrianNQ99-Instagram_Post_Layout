@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: black;
+    font-size: 12px;
+    margin-top: 70px;
+}
+i{
+    font-size: 25px;
+    margin: 4px;
+}
+.post{
+    background-color: white;
+    width: 350px;
+    padding-bottom: 12px;
+}
+.img_post img{
+    width: 100%;
+    height: 100%;
+}
+.header-post{
+    margin: 5px;
+    display: flex;
+    position: relative;
+}
+.icons-post{
+    display: flex;
+    position: relative;
+}
+.bookmark-icon{
+    position: absolute;
+    right: 10px;
+}
+.icon-ellipsis{
+    position: absolute;
+    right: 8px;
+}
+.icon-html{
+    display: flex;
+}
+.icon-html i {
+    margin: 4px;
+}
+p{
+    margin: 8px;
+}
